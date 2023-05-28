@@ -1,9 +1,0 @@
-str = input("Enter String: ")
-length = len(str)
-for i in range(length):
-    a = ord(str[i]) & 127
-    print(chr(a))
-print("\n")
-for i in range(length):
-    a = ord(str[i]) ^ 127
-    print(chr(a))
